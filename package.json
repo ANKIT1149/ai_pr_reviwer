@@ -1,0 +1,32 @@
+{
+  "name": "ai-pr-reviewer",
+  "version": "1.0.0",
+  "description": "It is the ai pr reviewer for organisation or for company to save time",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "Ai",
+    "Pr",
+    "Reviewer"
+  ],
+  "author": "Aryansh Srivastav",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/auth-app": "^8.1.0",
+    "@octokit/rest": "^22.0.0",
+    "@octokit/webhooks": "^14.1.3",
+    "axios": "^1.12.2",
+    "body-parser": "^2.2.0",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "openai": "^5.22.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1"
+  }
+}
