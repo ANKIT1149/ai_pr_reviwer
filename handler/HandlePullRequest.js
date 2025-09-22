@@ -1,7 +1,7 @@
 import { AIReview } from '../services/AIServices/AIReview.js';
 import { getOctokitForInstallation } from '../services/GithubServices/AuthenticateRepo.js';
 import { fetchFileChange } from '../services/GithubServices/FetchFileChange.js';
-import { runESLint } from '../services/LintServices/ESLintService.js';
+import { runESLint } from '../services/LintServices/ESlintService.js';
 import { postComment } from '../services/PostCommentService/PostCommentService.js';
 
 export const handlePullRequest = async ({ id, name, payload }) => {

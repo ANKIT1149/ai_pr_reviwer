@@ -6,3 +6,4 @@ export const PRIVATE_KEY = process.env.PRIVATE_KEY;
 export const WEBHOOK_SECRET = process.env.WEBHOOK_SECRET;
 export const INSTALLATION_ID = process.env.INSTALLATION_ID;
 export const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
+export const PORT = process.env.PORT || 3000;

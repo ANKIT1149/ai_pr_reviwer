@@ -1,9 +1,9 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 import { webhooks } from './services/WebHookServices/WebHookRun.js';
+import { PORT } from './config.js';
 
 const app = express();
-const port = 3000;
 
 app.use(bodyParser.json());
 
@@ -21,4 +21,4 @@ app.post('/webhook', async (req, res) => {
   }
 });
 
-app.listen(3000, () => console.log('App listening on port 3000'));
+app.listen(PORT, () => console.log('App listening on port 3000'));
