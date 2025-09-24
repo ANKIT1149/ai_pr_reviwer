@@ -21,4 +21,8 @@ app.post('/webhook', async (req, res) => {
   }
 });
 
+app.get("/", (req, res) => {
+   res.status(200).json("Welcome to ai pr previewer")
+})
+
 app.listen(PORT, () => console.log('App listening on port 3000'));
